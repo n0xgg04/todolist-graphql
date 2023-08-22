@@ -1,0 +1,5 @@
+schema: todo.graphql
+    extensions:
+         endpoints:
+            One:
+                url: https://api-callme.gtsvn.com.vn/graphql
