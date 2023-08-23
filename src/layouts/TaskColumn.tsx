@@ -20,6 +20,7 @@ export default React.memo(function TaskColumn({
   const getRandomBackground = (): string => {
     return background[Math.floor(Math.random() * background.length)];
   };
+
   return (
     <React.Fragment>
       {todoList &&

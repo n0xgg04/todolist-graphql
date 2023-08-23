@@ -35,6 +35,11 @@ export default React.memo(function TaskList(props: Props): React.JSX.Element {
     },
   ];
 
+  console.log({
+    todoList,
+    column,
+  });
+
   return (
     <div className="mt-2 flex max-h-[80vh] w-full flex-row gap-x-3 overflow-x-auto bg-[#f9f9f9]">
       {column.map((items, index) => (

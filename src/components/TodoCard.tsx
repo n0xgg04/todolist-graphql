@@ -54,7 +54,7 @@ export default function TodoCard({
           input: {
             isActive: false,
             id: taskId,
-            title: title,
+            title: content,
           },
         },
       });
